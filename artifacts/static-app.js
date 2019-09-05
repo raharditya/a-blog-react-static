@@ -682,7 +682,7 @@ __webpack_require__.r(__webpack_exports__);
     className: "post-header"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "post-title"
-  }, post.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("small", {
+  }, "Test"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("small", {
     className: "post-date"
   }, "5 September 2019")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
     className: "post-content"

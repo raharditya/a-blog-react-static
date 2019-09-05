@@ -2,27 +2,27 @@
   "errors": [],
   "warnings": [],
   "version": "4.39.3",
-  "hash": "ec5cdebe310b1c4fc590",
-  "time": 13371,
-  "builtAt": 1567678697640,
+  "hash": "c7bdff9d423a62283776",
+  "time": 46227,
+  "builtAt": 1567682274264,
   "publicPath": "/",
   "outputPath": "/home/rhdt/Documents/reactTest/a-blog/dist",
   "assetsByChunkName": {
     "home/rhdt/Documents/reactTest/a-blog/src/pages/404": "templates/home/rhdt/Documents/reactTest/a-blog/src/pages/404.0bb2c915.js",
     "home/rhdt/Documents/reactTest/a-blog/src/pages/about": "templates/home/rhdt/Documents/reactTest/a-blog/src/pages/about.ef14895c.js",
     "home/rhdt/Documents/reactTest/a-blog/src/pages/index": "templates/home/rhdt/Documents/reactTest/a-blog/src/pages/index.214675a3.js",
-    "home/rhdt/Documents/reactTest/a-blog/src/pages/post": "templates/home/rhdt/Documents/reactTest/a-blog/src/pages/post.8664a4db.js",
-    "main": "main.ec5cdebe.js",
+    "home/rhdt/Documents/reactTest/a-blog/src/pages/post": "templates/home/rhdt/Documents/reactTest/a-blog/src/pages/post.a9b6adf2.js",
+    "main": "main.c7bdff9d.js",
     "styles": [
-      "styles.13fd2c87.css",
-      "templates/styles.13fd2c87.js"
+      "styles.676adffb.css",
+      "templates/styles.676adffb.js"
     ],
     "vendors~home/rhdt/Documents/reactTest/a-blog/src/pages/post": "templates/vendors~home/rhdt/Documents/reactTest/a-blog/src/pages/post.22ce2342.js",
     "vendors~main": "templates/vendors~main.5cbbe93e.js"
   },
   "assets": [
     {
-      "name": "main.ec5cdebe.js",
+      "name": "main.c7bdff9d.js",
       "size": 7575,
       "chunks": [
         4
@@ -33,7 +33,7 @@
       "emitted": true
     },
     {
-      "name": "styles.13fd2c87.css",
+      "name": "styles.676adffb.css",
       "size": 534,
       "chunks": [
         5
@@ -77,8 +77,8 @@
       "emitted": true
     },
     {
-      "name": "templates/home/rhdt/Documents/reactTest/a-blog/src/pages/post.8664a4db.js",
-      "size": 775,
+      "name": "templates/home/rhdt/Documents/reactTest/a-blog/src/pages/post.a9b6adf2.js",
+      "size": 768,
       "chunks": [
         3
       ],
@@ -88,7 +88,7 @@
       "emitted": true
     },
     {
-      "name": "templates/styles.13fd2c87.js",
+      "name": "templates/styles.676adffb.js",
       "size": 82,
       "chunks": [
         5
@@ -130,10 +130,10 @@
         4
       ],
       "assets": [
-        "styles.13fd2c87.css",
-        "templates/styles.13fd2c87.js",
+        "styles.676adffb.css",
+        "templates/styles.676adffb.js",
         "templates/vendors~main.5cbbe93e.js",
-        "main.ec5cdebe.js"
+        "main.c7bdff9d.js"
       ],
       "children": {},
       "childAssets": {}
@@ -147,10 +147,10 @@
         4
       ],
       "assets": [
-        "styles.13fd2c87.css",
-        "templates/styles.13fd2c87.js",
+        "styles.676adffb.css",
+        "templates/styles.676adffb.js",
         "templates/vendors~main.5cbbe93e.js",
-        "main.ec5cdebe.js"
+        "main.c7bdff9d.js"
       ],
       "children": {},
       "childAssets": {}
@@ -192,7 +192,7 @@
       ],
       "assets": [
         "templates/vendors~home/rhdt/Documents/reactTest/a-blog/src/pages/post.22ce2342.js",
-        "templates/home/rhdt/Documents/reactTest/a-blog/src/pages/post.8664a4db.js"
+        "templates/home/rhdt/Documents/reactTest/a-blog/src/pages/post.a9b6adf2.js"
       ],
       "children": {},
       "childAssets": {}
@@ -516,14 +516,14 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 818,
+      "size": 814,
       "names": [
         "home/rhdt/Documents/reactTest/a-blog/src/pages/post"
       ],
       "files": [
-        "templates/home/rhdt/Documents/reactTest/a-blog/src/pages/post.8664a4db.js"
+        "templates/home/rhdt/Documents/reactTest/a-blog/src/pages/post.a9b6adf2.js"
       ],
-      "hash": "8664a4db6c259b67913e",
+      "hash": "a9b6adf2c3034629a238",
       "siblings": [
         6
       ],
@@ -541,7 +541,7 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
           "index": 135,
           "index2": 228,
-          "size": 818,
+          "size": 814,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -619,7 +619,7 @@
             "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
           ],
           "depth": 3,
-          "source": "import React from\"react\";import{useRouteData}from\"react-static\";import Markdown from\"react-markdown\";import{Link}from\"@reach/router\";export default(function(){var _useRouteData=useRouteData(),post=_useRouteData.post;return React.createElement(React.Fragment,null,React.createElement(\"header\",null,React.createElement(\"h1\",null,\"A Blog\"),React.createElement(\"div\",{className:\"header-nav\"},React.createElement(Link,{to:\"/\"},\"Home\"))),React.createElement(\"section\",{className:\"post-header\"},React.createElement(\"h3\",{className:\"post-title\"},post.title),React.createElement(\"small\",{className:\"post-date\"},\"5 September 2019\")),React.createElement(\"article\",{className:\"post-content\"}),React.createElement(\"footer\",null,React.createElement(\"small\",null,\"raharditya.com\"),React.createElement(\"p\",null,\"Copyright 2019\")));});"
+          "source": "import React from\"react\";import{useRouteData}from\"react-static\";import Markdown from\"react-markdown\";import{Link}from\"@reach/router\";export default(function(){var _useRouteData=useRouteData(),post=_useRouteData.post;return React.createElement(React.Fragment,null,React.createElement(\"header\",null,React.createElement(\"h1\",null,\"A Blog\"),React.createElement(\"div\",{className:\"header-nav\"},React.createElement(Link,{to:\"/\"},\"Home\"))),React.createElement(\"section\",{className:\"post-header\"},React.createElement(\"h3\",{className:\"post-title\"},\"Test\"),React.createElement(\"small\",{className:\"post-date\"},\"5 September 2019\")),React.createElement(\"article\",{className:\"post-content\"}),React.createElement(\"footer\",null,React.createElement(\"small\",null,\"raharditya.com\"),React.createElement(\"p\",null,\"Copyright 2019\")));});"
         }
       ],
       "filteredModules": 0,
@@ -654,9 +654,9 @@
         "main"
       ],
       "files": [
-        "main.ec5cdebe.js"
+        "main.c7bdff9d.js"
       ],
-      "hash": "2e4acc47e5e31fbaaf91",
+      "hash": "69f4b925b880d3e1b985",
       "siblings": [
         5,
         7
@@ -1286,10 +1286,10 @@
         "styles"
       ],
       "files": [
-        "styles.13fd2c87.css",
-        "templates/styles.13fd2c87.js"
+        "styles.676adffb.css",
+        "templates/styles.676adffb.js"
       ],
-      "hash": "13fd2c87de01ff3d7bb9",
+      "hash": "676adffb9a49018501dd",
       "siblings": [
         4,
         7
@@ -1364,7 +1364,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1567678689231\n      var cssReload = require(\"/home/rhdt/Documents/reactTest/a-blog/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1567682238734\n      var cssReload = require(\"/home/rhdt/Documents/reactTest/a-blog/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": "",
@@ -9817,7 +9817,7 @@
               "moduleName": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:550-555"
+              "loc": "1:546-551"
             },
             {
               "moduleId": 20,
@@ -9826,7 +9826,7 @@
               "moduleName": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:623-628"
+              "loc": "1:619-624"
             },
             {
               "moduleId": 20,
@@ -9835,7 +9835,7 @@
               "moduleName": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:681-686"
+              "loc": "1:677-682"
             },
             {
               "moduleId": 20,
@@ -9844,7 +9844,7 @@
               "moduleName": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:715-720"
+              "loc": "1:711-716"
             },
             {
               "moduleId": 20,
@@ -9853,7 +9853,7 @@
               "moduleName": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:766-771"
+              "loc": "1:762-767"
             },
             {
               "moduleId": 22,
@@ -10409,9 +10409,9 @@
           "chunks": [
             7
           ],
-          "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react/cjs/react.production.min.js",
-          "issuerId": 57,
-          "issuerName": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react/cjs/react.production.min.js",
+          "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-universal-component/dist/index.js",
+          "issuerId": 6,
+          "issuerName": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-universal-component/dist/index.js",
           "issuerPath": [
             {
               "id": 55,
@@ -10419,19 +10419,19 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapApp.js",
-              "name": "../lib/bootstrapApp.js"
+              "id": 112,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
-              "id": 0,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react/index.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react/index.js"
+              "id": 45,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 57,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react/cjs/react.production.min.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react/cjs/react.production.min.js"
+              "id": 6,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-universal-component/dist/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-universal-component/dist/index.js"
             }
           ],
           "failed": false,
@@ -10902,9 +10902,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -11501,9 +11501,9 @@
           "chunks": [
             7
           ],
-          "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "issuerId": 112,
-          "issuerName": "../lib/bootstrapTemplates.js",
+          "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "issuerId": 56,
+          "issuerName": "../lib/bootstrapPlugins.js",
           "issuerPath": [
             {
               "id": 55,
@@ -11511,9 +11511,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             }
           ],
           "failed": false,
@@ -11626,9 +11626,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -11747,9 +11747,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": null,
@@ -11948,9 +11948,9 @@
           "chunks": [
             7
           ],
-          "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "issuerId": 112,
-          "issuerName": "../lib/bootstrapTemplates.js",
+          "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "issuerId": 56,
+          "issuerName": "../lib/bootstrapPlugins.js",
           "issuerPath": [
             {
               "id": 55,
@@ -11958,9 +11958,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             }
           ],
           "failed": false,
@@ -12036,9 +12036,9 @@
           "chunks": [
             7
           ],
-          "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "issuerId": 20,
-          "issuerName": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
+          "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "issuerId": 54,
+          "issuerName": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
           "issuerPath": [
             {
               "id": 55,
@@ -12056,9 +12056,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             }
           ],
           "failed": false,
@@ -12198,9 +12198,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -12394,9 +12394,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -12642,9 +12642,9 @@
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "issuerId": 20,
-              "issuerName": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
+              "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "issuerId": 54,
+              "issuerName": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
               "issuerPath": [
                 {
                   "id": 55,
@@ -12662,9 +12662,9 @@
                   "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 20,
-                  "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-                  "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+                  "id": 54,
+                  "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+                  "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
                 }
               ],
               "failed": false,
@@ -12835,9 +12835,9 @@
                   "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 20,
-                  "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-                  "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+                  "id": 54,
+                  "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+                  "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
                 },
                 {
                   "id": null,
@@ -12920,9 +12920,9 @@
                   "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 20,
-                  "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-                  "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+                  "id": 54,
+                  "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+                  "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
                 },
                 {
                   "id": null,
@@ -12996,9 +12996,9 @@
                   "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 20,
-                  "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-                  "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+                  "id": 54,
+                  "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+                  "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
                 },
                 {
                   "id": null,
@@ -13154,9 +13154,9 @@
                   "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 20,
-                  "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-                  "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+                  "id": 54,
+                  "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+                  "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
                 },
                 {
                   "id": null,
@@ -13515,9 +13515,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -13837,9 +13837,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -13923,9 +13923,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -13994,9 +13994,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -14060,9 +14060,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -14131,9 +14131,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -14197,9 +14197,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -14263,9 +14263,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -14339,9 +14339,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -14420,9 +14420,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -14496,9 +14496,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -14572,9 +14572,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -14653,9 +14653,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -14739,9 +14739,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -14815,9 +14815,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -14891,9 +14891,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -15028,9 +15028,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -15104,9 +15104,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -15319,9 +15319,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": null,
@@ -15455,9 +15455,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -15526,9 +15526,9 @@
           "chunks": [
             7
           ],
-          "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/ast-to-react.js",
-          "issuerId": 216,
-          "issuerName": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/ast-to-react.js",
+          "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+          "issuerId": 46,
+          "issuerName": "/home/rhdt/Documents/reactTest/a-blog/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
           "issuerPath": [
             {
               "id": 55,
@@ -15546,19 +15546,14 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 6,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-universal-component/dist/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-universal-component/dist/index.js"
             },
             {
-              "id": 146,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/react-markdown.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/react-markdown.js"
-            },
-            {
-              "id": 216,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/ast-to-react.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/ast-to-react.js"
+              "id": 46,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"
             }
           ],
           "failed": false,
@@ -15731,9 +15726,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -15937,9 +15932,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -16009,9 +16004,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -16086,9 +16081,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -16158,9 +16153,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -16230,9 +16225,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -16297,9 +16292,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -16369,9 +16364,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -16441,9 +16436,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -16513,9 +16508,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -16590,9 +16585,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -16662,9 +16657,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -16734,9 +16729,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -16801,9 +16796,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -16863,9 +16858,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -16925,9 +16920,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -16987,9 +16982,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -17044,9 +17039,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -17106,9 +17101,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -17168,9 +17163,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -17230,9 +17225,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -17292,9 +17287,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -17359,9 +17354,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -17431,9 +17426,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -17503,9 +17498,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -17580,9 +17575,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -17652,9 +17647,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -17729,9 +17724,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -17811,9 +17806,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -17888,9 +17883,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -17965,9 +17960,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -18042,9 +18037,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -18119,9 +18114,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -18196,9 +18191,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -18263,9 +18258,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -18330,9 +18325,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -18392,9 +18387,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -18457,9 +18452,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 112,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 56,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -18529,9 +18524,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -18653,9 +18648,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -18725,9 +18720,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -18792,9 +18787,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -18859,9 +18854,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -18931,9 +18926,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -18998,9 +18993,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -19065,9 +19060,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": 12,
@@ -19132,9 +19127,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": null,
@@ -19199,9 +19194,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": null,
@@ -19271,9 +19266,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": null,
@@ -19348,9 +19343,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": null,
@@ -19425,9 +19420,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": null,
@@ -19678,19 +19673,14 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 6,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-universal-component/dist/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-universal-component/dist/index.js"
             },
             {
-              "id": 146,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/react-markdown.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/react-markdown.js"
-            },
-            {
-              "id": 216,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/ast-to-react.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/ast-to-react.js"
+              "id": 46,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"
             },
             {
               "id": 51,
@@ -20836,7 +20826,7 @@
           "moduleName": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:550-555"
+          "loc": "1:546-551"
         },
         {
           "moduleId": 20,
@@ -20845,7 +20835,7 @@
           "moduleName": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:623-628"
+          "loc": "1:619-624"
         },
         {
           "moduleId": 20,
@@ -20854,7 +20844,7 @@
           "moduleName": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:681-686"
+          "loc": "1:677-682"
         },
         {
           "moduleId": 20,
@@ -20863,7 +20853,7 @@
           "moduleName": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:715-720"
+          "loc": "1:711-716"
         },
         {
           "moduleId": 20,
@@ -20872,7 +20862,7 @@
           "moduleName": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:766-771"
+          "loc": "1:762-767"
         },
         {
           "moduleId": 22,
@@ -21428,9 +21418,9 @@
       "chunks": [
         7
       ],
-      "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react/cjs/react.production.min.js",
-      "issuerId": 57,
-      "issuerName": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react/cjs/react.production.min.js",
+      "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-universal-component/dist/index.js",
+      "issuerId": 6,
+      "issuerName": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-universal-component/dist/index.js",
       "issuerPath": [
         {
           "id": 55,
@@ -21438,19 +21428,19 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapApp.js",
-          "name": "../lib/bootstrapApp.js"
+          "id": 112,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
-          "id": 0,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react/index.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react/index.js"
+          "id": 45,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 57,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react/cjs/react.production.min.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react/cjs/react.production.min.js"
+          "id": 6,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-universal-component/dist/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-universal-component/dist/index.js"
         }
       ],
       "failed": false,
@@ -21921,9 +21911,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -22520,9 +22510,9 @@
       "chunks": [
         7
       ],
-      "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-      "issuerId": 112,
-      "issuerName": "../lib/bootstrapTemplates.js",
+      "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+      "issuerId": 56,
+      "issuerName": "../lib/bootstrapPlugins.js",
       "issuerPath": [
         {
           "id": 55,
@@ -22530,9 +22520,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         }
       ],
       "failed": false,
@@ -22645,9 +22635,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -22766,9 +22756,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": null,
@@ -22967,9 +22957,9 @@
       "chunks": [
         7
       ],
-      "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-      "issuerId": 112,
-      "issuerName": "../lib/bootstrapTemplates.js",
+      "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+      "issuerId": 56,
+      "issuerName": "../lib/bootstrapPlugins.js",
       "issuerPath": [
         {
           "id": 55,
@@ -22977,9 +22967,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         }
       ],
       "failed": false,
@@ -23055,9 +23045,9 @@
       "chunks": [
         7
       ],
-      "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-      "issuerId": 20,
-      "issuerName": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
+      "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+      "issuerId": 54,
+      "issuerName": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
       "issuerPath": [
         {
           "id": 55,
@@ -23075,9 +23065,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         }
       ],
       "failed": false,
@@ -23217,9 +23207,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -23413,9 +23403,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -23661,9 +23651,9 @@
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "issuerId": 20,
-          "issuerName": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
+          "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "issuerId": 54,
+          "issuerName": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
           "issuerPath": [
             {
               "id": 55,
@@ -23681,9 +23671,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             }
           ],
           "failed": false,
@@ -23854,9 +23844,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": null,
@@ -23939,9 +23929,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": null,
@@ -24015,9 +24005,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": null,
@@ -24173,9 +24163,9 @@
               "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
             },
             {
-              "id": 20,
-              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+              "id": 54,
+              "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+              "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
             },
             {
               "id": null,
@@ -24729,7 +24719,7 @@
       "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
       "index": 135,
       "index2": 228,
-      "size": 818,
+      "size": 814,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -24807,7 +24797,7 @@
         "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
       ],
       "depth": 3,
-      "source": "import React from\"react\";import{useRouteData}from\"react-static\";import Markdown from\"react-markdown\";import{Link}from\"@reach/router\";export default(function(){var _useRouteData=useRouteData(),post=_useRouteData.post;return React.createElement(React.Fragment,null,React.createElement(\"header\",null,React.createElement(\"h1\",null,\"A Blog\"),React.createElement(\"div\",{className:\"header-nav\"},React.createElement(Link,{to:\"/\"},\"Home\"))),React.createElement(\"section\",{className:\"post-header\"},React.createElement(\"h3\",{className:\"post-title\"},post.title),React.createElement(\"small\",{className:\"post-date\"},\"5 September 2019\")),React.createElement(\"article\",{className:\"post-content\"}),React.createElement(\"footer\",null,React.createElement(\"small\",null,\"raharditya.com\"),React.createElement(\"p\",null,\"Copyright 2019\")));});"
+      "source": "import React from\"react\";import{useRouteData}from\"react-static\";import Markdown from\"react-markdown\";import{Link}from\"@reach/router\";export default(function(){var _useRouteData=useRouteData(),post=_useRouteData.post;return React.createElement(React.Fragment,null,React.createElement(\"header\",null,React.createElement(\"h1\",null,\"A Blog\"),React.createElement(\"div\",{className:\"header-nav\"},React.createElement(Link,{to:\"/\"},\"Home\"))),React.createElement(\"section\",{className:\"post-header\"},React.createElement(\"h3\",{className:\"post-title\"},\"Test\"),React.createElement(\"small\",{className:\"post-date\"},\"5 September 2019\")),React.createElement(\"article\",{className:\"post-content\"}),React.createElement(\"footer\",null,React.createElement(\"small\",null,\"raharditya.com\"),React.createElement(\"p\",null,\"Copyright 2019\")));});"
     },
     {
       "id": 21,
@@ -24923,9 +24913,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -25308,9 +25298,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -25394,9 +25384,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -25465,9 +25455,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -25531,9 +25521,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -25602,9 +25592,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -25668,9 +25658,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -25734,9 +25724,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -25810,9 +25800,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -25891,9 +25881,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -25967,9 +25957,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -26043,9 +26033,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -26124,9 +26114,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -26210,9 +26200,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -26286,9 +26276,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -26362,9 +26352,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -26499,9 +26489,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -26575,9 +26565,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -26854,9 +26844,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": null,
@@ -26990,9 +26980,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -27061,9 +27051,9 @@
       "chunks": [
         7
       ],
-      "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/ast-to-react.js",
-      "issuerId": 216,
-      "issuerName": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/ast-to-react.js",
+      "issuer": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "issuerId": 46,
+      "issuerName": "/home/rhdt/Documents/reactTest/a-blog/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "issuerPath": [
         {
           "id": 55,
@@ -27081,19 +27071,14 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 6,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-universal-component/dist/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-universal-component/dist/index.js"
         },
         {
-          "id": 146,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/react-markdown.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/react-markdown.js"
-        },
-        {
-          "id": 216,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/ast-to-react.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/ast-to-react.js"
+          "id": 46,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"
         }
       ],
       "failed": false,
@@ -27507,9 +27492,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -27713,9 +27698,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -27785,9 +27770,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -27862,9 +27847,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -27934,9 +27919,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -28006,9 +27991,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -28073,9 +28058,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -28145,9 +28130,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -28217,9 +28202,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -28289,9 +28274,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -28366,9 +28351,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -28438,9 +28423,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -28510,9 +28495,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -28577,9 +28562,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28639,9 +28624,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28701,9 +28686,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28763,9 +28748,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28820,9 +28805,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28882,9 +28867,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28944,9 +28929,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -29006,9 +28991,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -29068,9 +29053,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -29135,9 +29120,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -29207,9 +29192,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -29279,9 +29264,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -29356,9 +29341,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -29428,9 +29413,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -29505,9 +29490,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -29587,9 +29572,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -29664,9 +29649,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -29741,9 +29726,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -29818,9 +29803,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -29895,9 +29880,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -29972,9 +29957,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -30039,9 +30024,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -30106,9 +30091,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -30168,9 +30153,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -30233,9 +30218,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 112,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 56,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -30305,9 +30290,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -30429,9 +30414,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -30501,9 +30486,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -30568,9 +30553,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -30635,9 +30620,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -30707,9 +30692,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -30774,9 +30759,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -30841,9 +30826,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": 12,
@@ -30908,9 +30893,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": null,
@@ -30975,9 +30960,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": null,
@@ -31047,9 +31032,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": null,
@@ -31124,9 +31109,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": null,
@@ -31201,9 +31186,9 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 54,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/index.js"
         },
         {
           "id": null,
@@ -31524,19 +31509,14 @@
           "name": "/home/rhdt/Documents/reactTest/a-blog/artifacts/react-static-templates.js"
         },
         {
-          "id": 20,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/src/pages/post.js"
+          "id": 6,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-universal-component/dist/index.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-universal-component/dist/index.js"
         },
         {
-          "id": 146,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/react-markdown.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/react-markdown.js"
-        },
-        {
-          "id": 216,
-          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/ast-to-react.js",
-          "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-markdown/lib/ast-to-react.js"
+          "id": 46,
+          "identifier": "/home/rhdt/Documents/reactTest/a-blog/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/rhdt/Documents/reactTest/a-blog/node_modules/react-hot-loader/webpack.js!/home/rhdt/Documents/reactTest/a-blog/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+          "name": "/home/rhdt/Documents/reactTest/a-blog/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"
         },
         {
           "id": 51,
@@ -32219,7 +32199,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1567678689231\n      var cssReload = require(\"/home/rhdt/Documents/reactTest/a-blog/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1567682238734\n      var cssReload = require(\"/home/rhdt/Documents/reactTest/a-blog/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 128,
