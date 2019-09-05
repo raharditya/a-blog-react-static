@@ -15,7 +15,7 @@ export default () => {
       </header>
 
       <section className="post-header">
-        <h3 className="post-title">{post.title}</h3>
+        <h3 className="post-title">Test</h3>
         <small className="post-date">5 September 2019</small>
       </section>
 
