@@ -1,0 +1,61 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/home/rhdt/Documents/reactTest/a-blog/src/pages"
+      }
+    ],
+    "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/home/rhdt/Documents/reactTest/a-blog/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/home/rhdt/Documents/reactTest/a-blog"
+  ],
+  "paths": {
+    "ROOT": "/home/rhdt/Documents/reactTest/a-blog",
+    "SRC": "/home/rhdt/Documents/reactTest/a-blog/src",
+    "DIST": "/home/rhdt/Documents/reactTest/a-blog/dist",
+    "ASSETS": "/home/rhdt/Documents/reactTest/a-blog/dist",
+    "PLUGINS": "/home/rhdt/Documents/reactTest/a-blog/plugins",
+    "TEMP": "/home/rhdt/Documents/reactTest/a-blog/tmp",
+    "ARTIFACTS": "/home/rhdt/Documents/reactTest/a-blog/artifacts",
+    "PUBLIC": "/home/rhdt/Documents/reactTest/a-blog/public",
+    "NODE_MODULES": "/home/rhdt/Documents/reactTest/a-blog/node_modules",
+    "EXCLUDE_MODULES": "/home/rhdt/Documents/reactTest/a-blog/node_modules",
+    "PACKAGE": "/home/rhdt/Documents/reactTest/a-blog/package.json",
+    "HTML_TEMPLATE": "/home/rhdt/Documents/reactTest/a-blog/dist/index.html",
+    "STATIC_DATA": "/home/rhdt/Documents/reactTest/a-blog/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
